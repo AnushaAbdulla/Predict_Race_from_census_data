@@ -94,12 +94,9 @@ Information on available functions and classes for extending or integrating the 
 
 Comprehensive project documentation is available in the docs/ folder.
 
-#Contact
+# Contact
 
 For questions or collaboration, please reach out:
 
-Email: [Your Email]
-
-GitHub: [Your GitHub Profile]
-
-LinkedIn: [Your LinkedIn Profile]
+- [**GitHub**](https://github.com/AnushaAbdulla)
+- [**LinkedIn**](https://www.linkedin.com/in/AnushaAbdulla)
