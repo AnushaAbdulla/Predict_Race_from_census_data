@@ -1,10 +1,10 @@
-## Predict Race from Census Data
+# Predict Race from Census Data
 
-# Project Overview
+## Project Overview
 
 My final project from the Summer ML Course at Cornell through Break Thru Tech AI focused on developing a machine learning model to classify individuals based on race using census data. This binary classification project aimed to address challenges in model performance, feature optimization, and data imbalance, while also highlighting the broader issue of algorithmic bias.
 
-# Objectives and Goals
+## Objectives and Goals
 
 - Build a Random Forest (RF) model for binary racial classification.
 - Understand and minimize misclassifications, particularly false negatives.
@@ -28,32 +28,32 @@ My final project from the Summer ML Course at Cornell through Break Thru Tech AI
 6. Bias Analysis:
   - Investigated the impact of imbalanced class distributions on model performance and explored undersampling strategies.
 
-# Results and Key Findings
+## Results and Key Findings
 - The refined Random Forest model achieved a 90% accuracy rate with the top 20 features.
 - Despite optimization, the binary model struggled with high false negative rates, particularly in misclassifying individuals as black when they were not.
 - Multi-class classification did not surpass the accuracy of the binary classification model.
 - Attempts to mitigate class imbalance through undersampling led to diminished overall performance.
 - Highlighted the importance of addressing algorithmic bias to prevent perpetuation of stereotypes inherent in the data.
 
-# Visualizations
+## Visualizations
 - Feature importance rankings and their impact on classification.
 - Confusion matrix visualizations to analyze misclassifications.
 - Accuracy trends during hyperparameter tuning.
 
-#Potential Next Steps
+## Potential Next Steps
 - Obtain or adjust datasets to balance class distributions, ensuring adequate representation of all groups in the training set.
 - Explore advanced methods for handling class imbalance, such as Synthetic Minority Oversampling Technique (SMOTE).
 - Investigate alternative algorithms or ensemble methods for improved multi-class classification performance.
 - Conduct bias audits and fairness metrics analysis to further mitigate algorithmic bias.
 
-# Individual Contributions
+## Individual Contributions
 - Developed and implemented the Random Forest model for binary and multi-class classification.
 - Conducted feature importance analysis and feature selection.
 - Tuned hyperparameters using grid search.
 - Evaluated and addressed challenges related to data imbalance and bias.
 - Documented findings and prepared recommendations for future improvements.
 
-# Installation Instructions
+## Installation Instructions
 
 To set up the project locally, follow these steps:
 
@@ -82,19 +82,19 @@ cd predict-race-census`
 
 `python evaluate_model.py`
 
-# Documentation
+## Documentation
 
-  User Guide:
+  ### User Guide:
 
 Detailed instructions for using the model, including input formats and expected outputs.
 
-  API Documentation:
+  ### API Documentation:
 
 Information on available functions and classes for extending or integrating the project into other systems.
 
 Comprehensive project documentation is available in the docs/ folder.
 
-# Contact
+## Contact
 
 For questions or collaboration, please reach out:
 
